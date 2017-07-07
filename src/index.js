@@ -11,3 +11,5 @@ const uri = "ws://localhost:31778";
 
 ReactDOM.render(<LwwrReplikator atom={0} userId={userId} crdtId={lwwrId} uri={uri}><App/></LwwrReplikator>,
                 document.getElementById('root'));
+
+registerServiceWorker();
